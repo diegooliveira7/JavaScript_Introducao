@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparando dois campos</title>
+    <link rel="stylesheet" title="text/css" href="./stylee.css">
+    <script src="./scriptTeste.js"></script>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Comparando dois Campos</h1>
+        <p id="subtitulo">Tem que preencher todos os campos</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label class="campo">Campo 1</label><!--Nome do campo-->
+                <input type="text" name="campo1" required><!--Serve para informar que somente vai ser enviado os dados se estiver preenchido-->                    
+            </div>
+                <br><!--Quebra de Linha-->
+            <div>
+                <label class="campo">Campo 2</label><!---->
+                <input type="text" name="campo2" required><!--Entrada de Valor-->
+            </div>
+        </fieldset>
+        <br>
+        <button type="button" onclick="Validar()" >Comparar</button>
+    </form>
+
+    
+</body>
+</html>

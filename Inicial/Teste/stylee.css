@@ -1,0 +1,32 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:black;
+    margin-left: 10%;
+}
+
+fieldset{
+    border:0;
+}
+
+input, select, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+
